@@ -1,0 +1,21 @@
+# Funcionalidades: pt
+
+Funcionalidade: Login Na Plataforma
+Como cliente Ebac
+Quero fazer login (autentificaçao) na Plataforma
+Para Visualizar meus pedidos
+
+Contexto: 
+Dado: Que devo realizar o login na plataforma Ebac SHOP
+
+Cenário: autentificaçao do login
+Quando: inserir meus dados na plataforma Ebac SHOP
+E: esses dados serem considerados validos
+Entao: deve ser direcionado para a tela do CheckOut
+
+Cenário: login de autentificaçao 
+Quando: inserir meus dados na plataforma Ebac SHOP
+E: a plataforma nao reconhecer os dados
+Entao: deve aparecer uma mensagem de "usuario ou senha inválidos"
+
+

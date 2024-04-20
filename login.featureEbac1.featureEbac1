@@ -1,0 +1,24 @@
+# Funcionalidades: pt
+
+FUNCIONALIDADE:Configurar Produto Da Ebac
+Como Cliente Da Ebac SHOP
+Quero configurar meu produto de acordo com o meu tamanho e gosto
+E escolher a quantiadade
+Para depois inserir no carrinho
+
+Contexto:
+Dado: que eu esteja visualizando um produto de meu interesse
+
+Cenário: Configuraçao de Produtos
+Quando: eu selecionar um produto de meu interesse no site da Ebac SHOP
+E antes de se efetuar qualquer compra
+Entao: devem aparecer opçao de escolher quantidade, cor e tamanho
+
+Cenário: quantidade de produtos por Venda
+Quando: estiver colocando os itens no carrinho
+E essa quantidade de produtos exceder o limite de 10 produtos
+Entao: deve aparecer uma mensagem de " inserir apenas 10 produtos"
+
+Cenário: Limpeza Do carrinho
+Quando: tocar no botao <limpeza>
+Entao: Deve voltar tudo ao estado original

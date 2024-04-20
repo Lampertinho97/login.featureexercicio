@@ -1,0 +1,35 @@
+# Funcionalidades: pt
+
+Funcionalidades: Tela de Cadastro (CheckOut)
+Como Cliente da Ebac
+Quero fazer concluir meu cadastro
+Para Finalizar a minha compra
+
+Contexto: 
+Dado:enquanto estiver na tela de cadastro
+
+Cenario: deve ser cadastrado com todos os Dados Obrigatorios
+Quando: marcados com asteriscos
+E: supondo que todos os dados obrigatorios estejam inseridos de forma correta
+Entao: o acesso deve funcionar normalmente
+
+Cenário: Nao permitir formatos inválidos
+Quando: inserir um dado invalido de cadastro
+E a plataforma reconhecer como invalido
+Entao: deve aparecer uma mensagem de Erro "senha ou email invalidos"
+
+Cenário: cadastros com campos vazios
+Quando: nao inserir nada nas opçoes de cadastro
+E: essas opçoes forem deixadas em branco
+Entao: deve exibir uma mensagem de alerta "por favor preencha os campos"
+
+Esquemas do Cenário: Tela de Cadastro
+Quando: eu digitar um <usuário> 
+E: a <senha> 
+Entao: deve aparecer uma <Mensagem> 
+
+Exemplos:
+|"ricardo@ebacsom.com.br"|"Ric54321"|"Bem Vindo Ricardo"|
+|"ricardoyyyxxx@.com.bt"|"Ricxxxyyy"|"senha ou email invalidos"|
+|"xxxxx@????.???"|"xxxx????"|"por favor preencha os campos"|
+
