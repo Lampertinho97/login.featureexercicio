@@ -29,7 +29,9 @@ E: a <senha>
 Entao: deve aparecer uma <Mensagem> 
 
 Exemplos:
-|"ricardo@ebacsom.com.br"|"Ric54321"|"Bem Vindo Ricardo"|
-|"ricardoyyyxxx@.com.bt"|"Ricxxxyyy"|"senha ou email invalidos"|
-|"xxxxx@????.???"|"xxxx????"|"por favor preencha os campos"|
+|       usuario          |  senha    |       mensagem               |
+|"ricardo@ebacsom.com.br"|"Ric54321" |"Bem Vindo Ricardo"           |
+|"ricardoyyyxxx@.com.bt" |"Ricxxxyyy"|"senha ou email invalidos"    |
+|"xxxxx@????.???"        |"xxxx????" |"por favor preencha os campos"|
+
 
